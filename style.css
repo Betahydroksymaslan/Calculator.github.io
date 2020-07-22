@@ -41,6 +41,10 @@
 }
 
 .memory__keys {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   -ms-flex-preferred-size: 15%;
       flex-basis: 15%;
   text-align: center;
@@ -63,6 +67,10 @@
 }
 
 .keys__key {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-size: 2rem;
   font-weight: 600;
   background-color: #585555;
