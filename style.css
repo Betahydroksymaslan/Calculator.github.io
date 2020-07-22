@@ -52,7 +52,7 @@
   cursor: pointer;
 }
 
-.memory__keys:hover {
+.memory__keys:active {
   text-decoration: underline;
 }
 
@@ -86,7 +86,7 @@
   cursor: pointer;
 }
 
-.keys__key:hover {
+.keys__key:active {
   background-color: #656262;
 }
 
@@ -94,7 +94,19 @@
   background-color: #817d7d;
 }
 
-.keys__key--number:hover {
+.keys__key--number:active {
   background-color: #8e8a8a;
+}
+
+@-webkit-keyframes radialClick {
+  to {
+    background-color: radial-gradient(#585555) red;
+  }
+}
+
+@keyframes radialClick {
+  to {
+    background-color: radial-gradient(#585555) red;
+  }
 }
 /*# sourceMappingURL=style.css.map */
